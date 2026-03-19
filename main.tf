@@ -1,6 +1,6 @@
 terraform {
   backend "azurerm" {
-    resource_group_name  = "sungroup"
+    resource_group_name  = "testgroup"
     storage_account_name = "sunstore"
     container_name       = "suncontainer"
     key                  = "terraform.tfstate"
