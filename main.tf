@@ -12,8 +12,8 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "rg-terraform-demo"
-  location = "Central India"
+  name     = var.rgn
+  location = var.loc
 }
 resource "azurerm_storage_account" "storage" {
   name                     = "tfdemostore12345"
