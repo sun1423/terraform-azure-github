@@ -16,6 +16,6 @@ jobs:
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-     # - run: terraform init
+      - run: terraform init
      # - run: terraform apply -auto-approve
       - run: terraform destroy -auto-approve 
