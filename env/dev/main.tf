@@ -4,10 +4,11 @@ provider "azurerm" {
 
 terraform {
   backend "azurerm" {
-    resource_group_name  = "rg-tf-state"
-    storage_account_name = "tfstatelearning12345"
-    container_name       = "tfstate"
+    resource_group_name  = "testgroup"
+    storage_account_name = "sunstore"
+    container_name       = "suncontainer"
     key                  = "dev.tfstate"
+
   }
 }
 
