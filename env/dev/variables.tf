@@ -5,4 +5,6 @@ variable "rgname" {
 variable "location" {
   type = string
 }
-
+ variable "subnet_name" {
+type = string
+}
