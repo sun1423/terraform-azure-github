@@ -28,4 +28,5 @@ jobs:
       - run: terraform init -reconfigure
       - run: terraform plan
       - run: terraform validate
-      - run: terraform apply -auto-approve
+      #- run: terraform apply -auto-approve
+      - run: terraform destroy
