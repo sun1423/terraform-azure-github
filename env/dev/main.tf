@@ -1,14 +1,18 @@
+provider "azurerm" {
+  features {}
+}
 
 terraform {
   backend "azurerm" {
-    resource_group_name  = "testgroup"
-    storage_account_name = "sunstore"
-    container_name       = "suncontainer"
+    resource_group_name  = "rg-tf-state"
+    storage_account_name = "tfstatelearning12345"
+    container_name       = "tfstate"
     key                  = "dev.tfstate"
   }
 }
+
 module "rg" {
   source   = "../../modules/resource_group"
-  name     = var.rgn
-  location = var.loc
+  name     = var.resource_group_name
+  location = var.location
 }
