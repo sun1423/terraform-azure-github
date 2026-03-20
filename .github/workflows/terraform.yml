@@ -26,7 +26,7 @@ jobs:
       - uses: hashicorp/setup-terraform@v2
       
       - run: terraform init -reconfigure
-      - run: terraform force-unlock -force fbc60317-0901-beaf-29aa-c8fe8d98e007
+      
       - run: terraform plan
       - run: terraform validate
       - run: terraform apply -auto-approve
