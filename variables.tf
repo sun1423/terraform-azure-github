@@ -1,4 +1,3 @@
-</> hcl
 variable "rgn" {
   description = "rg name"
   type = string
