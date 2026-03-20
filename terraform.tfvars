@@ -1,5 +1,5 @@
 rgn = "rg-dev"
 loc = "Central India"
 storac = "devstrac"
-account_tier = "Standrad"
+account_tier = "Standard"
 account_rep_type = "LRS"
