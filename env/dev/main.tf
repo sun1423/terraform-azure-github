@@ -21,5 +21,5 @@ module "network" {
   source    = "../../modules/network"
   vnet_name = var.vnet_name
   location  = var.location
-  rg_name   = var.rgname
+  rgname   = var.rgname
 }
