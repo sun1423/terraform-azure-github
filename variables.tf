@@ -9,7 +9,7 @@ variable "loc" {
 }
 variable "storac" {
   type = string
-  default "Cental India"
+  default = "Cental India"
 }
 variable "account_tier" {
   type = string
