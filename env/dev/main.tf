@@ -20,6 +20,7 @@ module "rg" {
 module "network" {
   source    = "../../modules/network"
   vnet_name = var.vnet_name
+  subnet_name = var.subnet_name
   location  = var.location
   rgname   = var.rgname
 }
