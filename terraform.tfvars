@@ -1,2 +1,2 @@
 rgn = "rg-dev"
-location = "Central India"
+loc = "Central India"
