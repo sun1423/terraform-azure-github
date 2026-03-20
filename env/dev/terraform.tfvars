@@ -1,2 +1,5 @@
 rgname = "rg-dev"
 location = "Central India"
+vnet_name   = "vnet-dev"
+subnet_name = "subnet-dev"
+storage_name = "storagedev12345"
