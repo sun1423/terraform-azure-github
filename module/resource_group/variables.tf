@@ -1,21 +1,7 @@
-variable "rgn" {
-  description = "rg name"
+variable "name" {
   type = string
 }
 
-variable "loc" {
+variable "location" {
   type = string
-  default = "Cental India"
-}
-variable "storac" {
-  type = string
-  default = "Cental India"
-}
-variable "account_tier" {
-  type = string
-  default = "Standrad"
-}
-variable "account_rep_type" {
-  type = string
-  default = "LRS"
 }
