@@ -1,2 +1,2 @@
-resource_group_name = "rg-dev"
-location            = "Central India"
+rgname = "rg-dev"
+location = "Central India"
